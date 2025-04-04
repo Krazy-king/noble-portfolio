@@ -125,14 +125,23 @@ nav ul li a:hover::after{
 
 }
 
+
+
 .contents{
     display: flex;
     justify-content: space-between;
     line-height: 25px;
-    gap: 10rem;
+    gap: 3rem;
 }
 
-.tab-contents ul li{
+.tab-contents{
+    text-align: center;
+}
+
+.tab-contents h1{
+    color: #bb3208;
+}
+/* .tab-contents ul li{
     list-style: none;
     font-size: 17px;
     text-align: center;
@@ -141,7 +150,7 @@ nav ul li a:hover::after{
 .tab-contents ul li span{
     color: #9c1705;
     font-size: 25px;
-}
+} */ 
 
 /* -------------services------------------ */
 
